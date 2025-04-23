@@ -46,5 +46,5 @@ This model architecture leverages transfer learning with the ResNet50 model, pre
 Overall, using the ResNet50 functional API in Keras provided flexibility in defining more complex architectures; useful for combining transfer learning with the required customization to achieve excellent training and test results on the CIFAR-10 dataset.
 
 
-# CONCLUSION: BEST MODEL FOR CIFAR-10 IMAGE CLASSIFICATION
+# Conclusion: Best model for CIFAR-10 Image Classification -> ResNet with AdaGrad
 **ResNet with AdaGrad** outperforms the Sequential CNN with Momentum + Regularization + Early Stopping by achieving higher accuracy (93.32 vs. 75.16) and lower Top-1 error rates (0.0668 vs. 0.2484), thanks to its adaptive learning rate and deeper architecture, which enhance learning efficiency and generalization. In contrast, the Sequential CNN benefits from regularization and early stopping to reduce overfitting but struggles with accuracy due to its simpler architecture.
